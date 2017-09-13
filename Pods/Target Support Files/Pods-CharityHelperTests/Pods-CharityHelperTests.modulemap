@@ -1,0 +1,6 @@
+framework module Pods_CharityHelperTests {
+  umbrella header "Pods-CharityHelperTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

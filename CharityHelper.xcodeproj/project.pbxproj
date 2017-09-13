@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A882299D5D375BF738B0332 /* Pods_CharityHelperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0034ACE68BD64C05020C012 /* Pods_CharityHelperUITests.framework */; };
+		6C4683674C6FAA2FFEE8C8EB /* Pods_CharityHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C8D1CE707D0CEF2A9DA814 /* Pods_CharityHelperTests.framework */; };
+		837072BA31393CE00B181146 /* Pods_CharityHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310E45EFCDF4A72352983FA5 /* Pods_CharityHelper.framework */; };
+		A302C7E71F54FFB100F3A905 /* EncodedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302C7E61F54FFB100F3A905 /* EncodedImage.swift */; };
+		A30B24C01F57A7440077ED61 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30B24BF1F57A7440077ED61 /* DesignableView.swift */; };
+		A30B24C21F57A94F0077ED61 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30B24C11F57A94F0077ED61 /* PopupViewController.swift */; };
+		A30BEC101F5082410081DB18 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BEC0F1F5082410081DB18 /* UserLogin.swift */; };
+		A30BEC141F508D6F0081DB18 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A30BEC131F508D6F0081DB18 /* Podfile */; };
+		A30BEC161F508FE00081DB18 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BEC151F508FE00081DB18 /* UserData.swift */; };
+		A3492D211F4F9329003477F2 /* HttpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3492D201F4F9329003477F2 /* HttpHelper.swift */; };
+		A34A8E101F522A830024C178 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A8E0F1F522A830024C178 /* RegisterViewController.swift */; };
+		A34A8E121F522DC60024C178 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A8E111F522DC60024C178 /* LoginViewModel.swift */; };
+		A34A8E141F522E570024C178 /* BasicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A8E131F522E570024C178 /* BasicViewModel.swift */; };
+		A34A8E161F522F170024C178 /* RegisterationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A8E151F522F170024C178 /* RegisterationViewModel.swift */; };
+		A34F9C621F547138006E63CD /* Base64Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F9C611F547138006E63CD /* Base64Manager.swift */; };
+		A34F9C641F5473F1006E63CD /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F9C631F5473F1006E63CD /* BooksViewModel.swift */; };
+		A34F9C661F547412006E63CD /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F9C651F547412006E63CD /* Book.swift */; };
+		A35997891F59C8330028E7D2 /* BookCoverPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35997881F59C8330028E7D2 /* BookCoverPopupViewController.swift */; };
+		A359978B1F5ADAC30028E7D2 /* SearchPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359978A1F5ADAC20028E7D2 /* SearchPopupViewController.swift */; };
+		A36ECD541F5BB2280090AFE4 /* ISBNSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36ECD531F5BB2280090AFE4 /* ISBNSearchViewController.swift */; };
+		A37912FB1F530F3100CCAA83 /* AppMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37912FA1F530F3100CCAA83 /* AppMainPageViewController.swift */; };
+		A37912FD1F53313B00CCAA83 /* BooksMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37912FC1F53313B00CCAA83 /* BooksMainViewController.swift */; };
+		A37912FF1F53328200CCAA83 /* MyStorageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37912FE1F53328200CCAA83 /* MyStorageData.swift */; };
+		A399237C1F558C7F003AAAB0 /* CoverOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399237B1F558C7F003AAAB0 /* CoverOCR.swift */; };
 		A3B71B191F4B3B8500D257B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B71B181F4B3B8500D257B3 /* AppDelegate.swift */; };
 		A3B71B1B1F4B3B8500D257B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B71B1A1F4B3B8500D257B3 /* ViewController.swift */; };
 		A3B71B1E1F4B3B8500D257B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B71B1C1F4B3B8500D257B3 /* Main.storyboard */; };
@@ -14,6 +38,9 @@
 		A3B71B231F4B3B8500D257B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B71B211F4B3B8500D257B3 /* LaunchScreen.storyboard */; };
 		A3B71B2E1F4B3B8500D257B3 /* CharityHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B71B2D1F4B3B8500D257B3 /* CharityHelperTests.swift */; };
 		A3B71B391F4B3B8700D257B3 /* CharityHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B71B381F4B3B8700D257B3 /* CharityHelperUITests.swift */; };
+		A3B71B4B1F4B40C200D257B3 /* UserSessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B71B4A1F4B40C200D257B3 /* UserSessionData.swift */; };
+		A3B71B4D1F4B418C00D257B3 /* UserRegisteration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B71B4C1F4B418C00D257B3 /* UserRegisteration.swift */; };
+		A3EE11821F560AF10022D03B /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE11811F560AF10022D03B /* ProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +61,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26009A2A09919C9E77DABB02 /* Pods-CharityHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharityHelper/Pods-CharityHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		28C8D1CE707D0CEF2A9DA814 /* Pods_CharityHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		310E45EFCDF4A72352983FA5 /* Pods_CharityHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B93CD1F4A5672F25D679468 /* Pods-CharityHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharityHelper/Pods-CharityHelper.release.xcconfig"; sourceTree = "<group>"; };
+		7906B45B2FB3045D080C65FC /* Pods-CharityHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharityHelperTests/Pods-CharityHelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		8765E2C4AEAA0DA71A8EFA3F /* Pods-CharityHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityHelperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharityHelperUITests/Pods-CharityHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		953D42DEC3AD676C22CCE452 /* Pods-CharityHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharityHelperTests/Pods-CharityHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A302C7E61F54FFB100F3A905 /* EncodedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodedImage.swift; sourceTree = "<group>"; };
+		A30B24BF1F57A7440077ED61 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		A30B24C11F57A94F0077ED61 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		A30BEC0F1F5082410081DB18 /* UserLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserLogin.swift; path = ../UserLogin.swift; sourceTree = "<group>"; };
+		A30BEC131F508D6F0081DB18 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A30BEC151F508FE00081DB18 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = ../UserData.swift; sourceTree = "<group>"; };
+		A3492D201F4F9329003477F2 /* HttpHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpHelper.swift; sourceTree = "<group>"; };
+		A34A8E0F1F522A830024C178 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A34A8E111F522DC60024C178 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A34A8E131F522E570024C178 /* BasicViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewModel.swift; sourceTree = "<group>"; };
+		A34A8E151F522F170024C178 /* RegisterationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterationViewModel.swift; sourceTree = "<group>"; };
+		A34F9C611F547138006E63CD /* Base64Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64Manager.swift; sourceTree = "<group>"; };
+		A34F9C631F5473F1006E63CD /* BooksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		A34F9C651F547412006E63CD /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		A35997881F59C8330028E7D2 /* BookCoverPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCoverPopupViewController.swift; sourceTree = "<group>"; };
+		A359978A1F5ADAC20028E7D2 /* SearchPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPopupViewController.swift; sourceTree = "<group>"; };
+		A36ECD531F5BB2280090AFE4 /* ISBNSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISBNSearchViewController.swift; sourceTree = "<group>"; };
+		A37912FA1F530F3100CCAA83 /* AppMainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMainPageViewController.swift; sourceTree = "<group>"; };
+		A37912FC1F53313B00CCAA83 /* BooksMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksMainViewController.swift; sourceTree = "<group>"; };
+		A37912FE1F53328200CCAA83 /* MyStorageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStorageData.swift; sourceTree = "<group>"; };
+		A399237B1F558C7F003AAAB0 /* CoverOCR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverOCR.swift; sourceTree = "<group>"; };
 		A3B71B151F4B3B8500D257B3 /* CharityHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharityHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B71B181F4B3B8500D257B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3B71B1A1F4B3B8500D257B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +102,11 @@
 		A3B71B341F4B3B8700D257B3 /* CharityHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharityHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B71B381F4B3B8700D257B3 /* CharityHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityHelperUITests.swift; sourceTree = "<group>"; };
 		A3B71B3A1F4B3B8700D257B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B71B4A1F4B40C200D257B3 /* UserSessionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSessionData.swift; sourceTree = "<group>"; };
+		A3B71B4C1F4B418C00D257B3 /* UserRegisteration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegisteration.swift; sourceTree = "<group>"; };
+		A3EE11811F560AF10022D03B /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		B0034ACE68BD64C05020C012 /* Pods_CharityHelperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityHelperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C54E461D867B5EFD6701F1 /* Pods-CharityHelperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityHelperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharityHelperUITests/Pods-CharityHelperUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837072BA31393CE00B181146 /* Pods_CharityHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4683674C6FAA2FFEE8C8EB /* Pods_CharityHelperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +130,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A882299D5D375BF738B0332 /* Pods_CharityHelperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B7E2B125F8AEBCEC882F009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				310E45EFCDF4A72352983FA5 /* Pods_CharityHelper.framework */,
+				28C8D1CE707D0CEF2A9DA814 /* Pods_CharityHelperTests.framework */,
+				B0034ACE68BD64C05020C012 /* Pods_CharityHelperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A30B24BE1F57A7140077ED61 /* IBDesignables */ = {
+			isa = PBXGroup;
+			children = (
+				A30B24BF1F57A7440077ED61 /* DesignableView.swift */,
+			);
+			name = IBDesignables;
+			sourceTree = "<group>";
+		};
+		A367FB3D1F4B9C1300FA6BAB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A3492D201F4F9329003477F2 /* HttpHelper.swift */,
+				A37912FE1F53328200CCAA83 /* MyStorageData.swift */,
+				A34F9C611F547138006E63CD /* Base64Manager.swift */,
+				A3EE11811F560AF10022D03B /* ProgressBar.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		A388F13F1F660C5B00C5E0E0 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				A3B71B4A1F4B40C200D257B3 /* UserSessionData.swift */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
 		A3B71B0C1F4B3B8500D257B3 = {
 			isa = PBXGroup;
 			children = (
+				A30BEC131F508D6F0081DB18 /* Podfile */,
 				A3B71B171F4B3B8500D257B3 /* CharityHelper */,
 				A3B71B2C1F4B3B8500D257B3 /* CharityHelperTests */,
 				A3B71B371F4B3B8700D257B3 /* CharityHelperUITests */,
 				A3B71B161F4B3B8500D257B3 /* Products */,
+				B72261617B5CBBE13D1C6608 /* Pods */,
+				6B7E2B125F8AEBCEC882F009 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +200,13 @@
 		A3B71B171F4B3B8500D257B3 /* CharityHelper */ = {
 			isa = PBXGroup;
 			children = (
+				A388F13F1F660C5B00C5E0E0 /* others */,
+				A30B24BE1F57A7140077ED61 /* IBDesignables */,
+				A367FB3D1F4B9C1300FA6BAB /* Services */,
+				A3B71B491F4B408F00D257B3 /* Controllers */,
+				A3B71B481F4B406E00D257B3 /* ViewsModels */,
+				A3B71B461F4B405600D257B3 /* Models */,
 				A3B71B181F4B3B8500D257B3 /* AppDelegate.swift */,
-				A3B71B1A1F4B3B8500D257B3 /* ViewController.swift */,
 				A3B71B1C1F4B3B8500D257B3 /* Main.storyboard */,
 				A3B71B1F1F4B3B8500D257B3 /* Assets.xcassets */,
 				A3B71B211F4B3B8500D257B3 /* LaunchScreen.storyboard */,
@@ -125,6 +233,58 @@
 			path = CharityHelperUITests;
 			sourceTree = "<group>";
 		};
+		A3B71B461F4B405600D257B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A30BEC0F1F5082410081DB18 /* UserLogin.swift */,
+				A30BEC151F508FE00081DB18 /* UserData.swift */,
+				A3B71B4C1F4B418C00D257B3 /* UserRegisteration.swift */,
+				A34F9C651F547412006E63CD /* Book.swift */,
+				A302C7E61F54FFB100F3A905 /* EncodedImage.swift */,
+				A399237B1F558C7F003AAAB0 /* CoverOCR.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A3B71B481F4B406E00D257B3 /* ViewsModels */ = {
+			isa = PBXGroup;
+			children = (
+				A34A8E111F522DC60024C178 /* LoginViewModel.swift */,
+				A34A8E131F522E570024C178 /* BasicViewModel.swift */,
+				A34A8E151F522F170024C178 /* RegisterationViewModel.swift */,
+				A34F9C631F5473F1006E63CD /* BooksViewModel.swift */,
+			);
+			name = ViewsModels;
+			sourceTree = "<group>";
+		};
+		A3B71B491F4B408F00D257B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3B71B1A1F4B3B8500D257B3 /* ViewController.swift */,
+				A34A8E0F1F522A830024C178 /* RegisterViewController.swift */,
+				A37912FA1F530F3100CCAA83 /* AppMainPageViewController.swift */,
+				A37912FC1F53313B00CCAA83 /* BooksMainViewController.swift */,
+				A30B24C11F57A94F0077ED61 /* PopupViewController.swift */,
+				A35997881F59C8330028E7D2 /* BookCoverPopupViewController.swift */,
+				A359978A1F5ADAC20028E7D2 /* SearchPopupViewController.swift */,
+				A36ECD531F5BB2280090AFE4 /* ISBNSearchViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B72261617B5CBBE13D1C6608 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26009A2A09919C9E77DABB02 /* Pods-CharityHelper.debug.xcconfig */,
+				5B93CD1F4A5672F25D679468 /* Pods-CharityHelper.release.xcconfig */,
+				953D42DEC3AD676C22CCE452 /* Pods-CharityHelperTests.debug.xcconfig */,
+				7906B45B2FB3045D080C65FC /* Pods-CharityHelperTests.release.xcconfig */,
+				E8C54E461D867B5EFD6701F1 /* Pods-CharityHelperUITests.debug.xcconfig */,
+				8765E2C4AEAA0DA71A8EFA3F /* Pods-CharityHelperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3B71B3D1F4B3B8700D257B3 /* Build configuration list for PBXNativeTarget "CharityHelper" */;
 			buildPhases = (
+				805DA6070FFA5CE007A7917F /* [CP] Check Pods Manifest.lock */,
 				A3B71B111F4B3B8500D257B3 /* Sources */,
 				A3B71B121F4B3B8500D257B3 /* Frameworks */,
 				A3B71B131F4B3B8500D257B3 /* Resources */,
+				7ABFB8C9D1A8AC7F61B5E5BC /* [CP] Embed Pods Frameworks */,
+				79FDE968C39D2548B0E3F704 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3B71B401F4B3B8700D257B3 /* Build configuration list for PBXNativeTarget "CharityHelperTests" */;
 			buildPhases = (
+				7A6C9DC66D323BBCDE8635D3 /* [CP] Check Pods Manifest.lock */,
 				A3B71B251F4B3B8500D257B3 /* Sources */,
 				A3B71B261F4B3B8500D257B3 /* Frameworks */,
 				A3B71B271F4B3B8500D257B3 /* Resources */,
+				F86D809A125FA17B69668E4B /* [CP] Embed Pods Frameworks */,
+				F8746C95C057D7FF4AFFAB3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +333,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3B71B431F4B3B8700D257B3 /* Build configuration list for PBXNativeTarget "CharityHelperUITests" */;
 			buildPhases = (
+				3B28ABC33BAC66783A160EC8 /* [CP] Check Pods Manifest.lock */,
 				A3B71B301F4B3B8700D257B3 /* Sources */,
 				A3B71B311F4B3B8700D257B3 /* Frameworks */,
 				A3B71B321F4B3B8700D257B3 /* Resources */,
+				083A927C7B80E9314B3C1D8E /* [CP] Embed Pods Frameworks */,
+				DF995D9801FA7A3BC77B297D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +362,7 @@
 				TargetAttributes = {
 					A3B71B141F4B3B8500D257B3 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S6F7P72E5D;
 						ProvisioningStyle = Automatic;
 					};
 					A3B71B281F4B3B8500D257B3 = {
@@ -234,6 +404,7 @@
 			files = (
 				A3B71B231F4B3B8500D257B3 /* LaunchScreen.storyboard in Resources */,
 				A3B71B201F4B3B8500D257B3 /* Assets.xcassets in Resources */,
+				A30BEC141F508D6F0081DB18 /* Podfile in Resources */,
 				A3B71B1E1F4B3B8500D257B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +425,190 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		083A927C7B80E9314B3C1D8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityHelperUITests/Pods-CharityHelperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B28ABC33BAC66783A160EC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharityHelperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79FDE968C39D2548B0E3F704 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityHelper/Pods-CharityHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A6C9DC66D323BBCDE8635D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharityHelperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ABFB8C9D1A8AC7F61B5E5BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CharityHelper/Pods-CharityHelper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityHelper/Pods-CharityHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		805DA6070FFA5CE007A7917F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharityHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF995D9801FA7A3BC77B297D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityHelperUITests/Pods-CharityHelperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F86D809A125FA17B69668E4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityHelperTests/Pods-CharityHelperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8746C95C057D7FF4AFFAB3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityHelperTests/Pods-CharityHelperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3B71B111F4B3B8500D257B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A3B71B1B1F4B3B8500D257B3 /* ViewController.swift in Sources */,
+				A37912FF1F53328200CCAA83 /* MyStorageData.swift in Sources */,
+				A34A8E161F522F170024C178 /* RegisterationViewModel.swift in Sources */,
+				A359978B1F5ADAC30028E7D2 /* SearchPopupViewController.swift in Sources */,
+				A30BEC101F5082410081DB18 /* UserLogin.swift in Sources */,
+				A3492D211F4F9329003477F2 /* HttpHelper.swift in Sources */,
+				A36ECD541F5BB2280090AFE4 /* ISBNSearchViewController.swift in Sources */,
+				A35997891F59C8330028E7D2 /* BookCoverPopupViewController.swift in Sources */,
+				A37912FB1F530F3100CCAA83 /* AppMainPageViewController.swift in Sources */,
+				A34A8E141F522E570024C178 /* BasicViewModel.swift in Sources */,
+				A34F9C621F547138006E63CD /* Base64Manager.swift in Sources */,
+				A34A8E101F522A830024C178 /* RegisterViewController.swift in Sources */,
+				A34F9C641F5473F1006E63CD /* BooksViewModel.swift in Sources */,
+				A302C7E71F54FFB100F3A905 /* EncodedImage.swift in Sources */,
+				A30B24C21F57A94F0077ED61 /* PopupViewController.swift in Sources */,
+				A399237C1F558C7F003AAAB0 /* CoverOCR.swift in Sources */,
+				A3B71B4D1F4B418C00D257B3 /* UserRegisteration.swift in Sources */,
+				A34F9C661F547412006E63CD /* Book.swift in Sources */,
+				A30B24C01F57A7440077ED61 /* DesignableView.swift in Sources */,
+				A30BEC161F508FE00081DB18 /* UserData.swift in Sources */,
 				A3B71B191F4B3B8500D257B3 /* AppDelegate.swift in Sources */,
+				A3B71B4B1F4B40C200D257B3 /* UserSessionData.swift in Sources */,
+				A37912FD1F53313B00CCAA83 /* BooksMainViewController.swift in Sources */,
+				A3EE11821F560AF10022D03B /* ProgressBar.swift in Sources */,
+				A34A8E121F522DC60024C178 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +758,10 @@
 		};
 		A3B71B3E1F4B3B8700D257B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26009A2A09919C9E77DABB02 /* Pods-CharityHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6F7P72E5D;
 				INFOPLIST_FILE = CharityHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.fox.CharityHelper;
@@ -422,8 +772,10 @@
 		};
 		A3B71B3F1F4B3B8700D257B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B93CD1F4A5672F25D679468 /* Pods-CharityHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6F7P72E5D;
 				INFOPLIST_FILE = CharityHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.fox.CharityHelper;
@@ -434,6 +786,7 @@
 		};
 		A3B71B411F4B3B8700D257B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953D42DEC3AD676C22CCE452 /* Pods-CharityHelperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +801,7 @@
 		};
 		A3B71B421F4B3B8700D257B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7906B45B2FB3045D080C65FC /* Pods-CharityHelperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +816,7 @@
 		};
 		A3B71B441F4B3B8700D257B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C54E461D867B5EFD6701F1 /* Pods-CharityHelperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CharityHelperUITests/Info.plist;
@@ -475,6 +830,7 @@
 		};
 		A3B71B451F4B3B8700D257B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8765E2C4AEAA0DA71A8EFA3F /* Pods-CharityHelperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CharityHelperUITests/Info.plist;
@@ -505,6 +861,7 @@
 				A3B71B3F1F4B3B8700D257B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3B71B401F4B3B8700D257B3 /* Build configuration list for PBXNativeTarget "CharityHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +870,7 @@
 				A3B71B421F4B3B8700D257B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3B71B431F4B3B8700D257B3 /* Build configuration list for PBXNativeTarget "CharityHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +879,7 @@
 				A3B71B451F4B3B8700D257B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
